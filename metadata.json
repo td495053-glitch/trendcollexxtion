@@ -1,0 +1,6 @@
+{
+  "name": "trendcollextion",
+  "description": "A vibrant e-commerce website for trend jewellery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

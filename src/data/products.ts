@@ -1,0 +1,102 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Sapphire Ocean Ring',
+    price: 450,
+    description: 'A stunning deep blue sapphire set in 18k white gold, surrounded by a halo of brilliant-cut diamonds. Perfect for evening wear.',
+    category: 'Rings',
+    image: 'https://images.unsplash.com/photo-1605100804763-247f66126e28?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '2',
+    name: 'Rose Gold Minimalist Bracelet',
+    price: 180,
+    description: 'A delicate and elegant 14k rose gold chain bracelet with a single diamond accent. Ideal for everyday elegance.',
+    category: 'Bracelets',
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '3',
+    name: 'Emerald Teardrop Earrings',
+    price: 320,
+    description: 'Vibrant teardrop emeralds suspended from diamond-studded yellow gold hoops. A striking addition to your collection.',
+    category: 'Earrings',
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '4',
+    name: 'Pearl Essence Necklace',
+    price: 550,
+    description: 'A classic single strand of Akoya cultured pearls with a 14k gold filigree clasp. Timeless and sophisticated.',
+    category: 'Necklaces',
+    image: 'https://images.unsplash.com/photo-1599643478524-fb5244199453?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '5',
+    name: 'Diamond Solitaire Pendant',
+    price: 890,
+    description: 'A brilliant 1-carat round diamond set in a minimalist platinum bezel on a delicate chain.',
+    category: 'Necklaces',
+    image: 'https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '6',
+    name: 'Ruby Eternity Band',
+    price: 640,
+    description: 'Continuous channel-set square rubies in an 18k yellow gold band. A bold statement of passion.',
+    category: 'Rings',
+    image: 'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '7',
+    name: 'Gold Chunky Chain Bracelet',
+    price: 210,
+    description: 'A bold, modern statement piece. 18k gold vermeil chunky chain bracelet with a secure toggle clasp.',
+    category: 'Bracelets',
+    image: 'https://images.unsplash.com/photo-1573408301145-b98c41490d16?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '8',
+    name: 'Opal Drop Earrings',
+    price: 275,
+    description: 'Mesmerizing Ethiopian opals capturing every color of the rainbow, set in delicate rose gold drops.',
+    category: 'Earrings',
+    image: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '9',
+    name: 'Vintage Garnet Brooch',
+    price: 340,
+    description: 'An intricate Victorian-style brooch featuring deep red garnets set in oxidized sterling silver.',
+    category: 'Accessories',
+    image: 'https://images.unsplash.com/photo-1620656798579-1984d9e97cbf?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '10',
+    name: 'Platinum Diamond Hoop Earrings',
+    price: 1100,
+    description: 'Inside-out diamond hoop earrings crafted in premium platinum for maximum sparkle from every angle.',
+    category: 'Earrings',
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '11',
+    name: 'Amethyst Statement Ring',
+    price: 290,
+    description: 'A large, emerald-cut amethyst taking center stage on a sleek silver band. Bold and majestic.',
+    category: 'Rings',
+    image: 'https://images.unsplash.com/photo-1596944924616-7b38e7cfac36?auto=format&fit=crop&q=80&w=600',
+  },
+  {
+    id: '12',
+    name: 'Layered Gold Coin Necklace',
+    price: 150,
+    description: 'Trendy multi-layered necklace featuring vintage-inspired gold coins and delicate chains.',
+    category: 'Necklaces',
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&q=80&w=600',
+  }
+];
+
+export const categories = Array.from(new Set(products.map(p => p.category)));
